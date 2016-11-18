@@ -1,0 +1,11 @@
+import time
+print("Made by Griffin Smiley.")
+time.sleep(2)
+n = int(input('Enter your base:'))
+e = int(input('Enter your exponent:'))
+if e >= 0:
+	print("It is:",n,"^",e,"over 1")
+else:
+	ae = abs(e)
+	print("It is 1 over",n,"^",ae)
+time.sleep(7.5)
